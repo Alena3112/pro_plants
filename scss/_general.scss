@@ -1,0 +1,64 @@
+$inika: "Inika", serif;
+$inter: "Inter", sans-serif;
+$green: #499a18;
+$orang: #e06733;
+$gray: #717171;
+$darkgr: #636060;
+$color_body: #edf2ec;
+$black: #010201;
+$text: 20px;
+$wrap: 1470px;
+$container: 1220px;
+$mc: 0 auto;
+
+body {
+  background: $color_body;
+  font-family: $inter;
+  color: $black;
+  font-size: $text;
+  // overflow: hidden;
+  
+}
+@mixin flex($jc, $ai) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: $jc;
+  align-items: $ai;
+}
+@mixin img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.wrapper {
+  max-width: $wrap;
+  margin: $mc;
+  padding: 0 15px;
+}
+.container {
+  max-width: $container;
+  margin: $mc;
+}
+
+h1 {
+  font-family: $inter;
+  font-weight: 700;
+  font-size: 45px;
+}
+h2{
+  font-family: $inika;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color:$green;
+}
+h3{
+  font-family: $inter;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+color: #E06733;
+}
+p{
+line-height: 1.8;
+}

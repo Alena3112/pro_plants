@@ -1,0 +1,61 @@
+.contacts__container {
+  @include flex(space-between, flex-start);
+  padding-top: 53px;
+  //justify-content: flex-start;
+  flex-direction: row;
+}
+
+.contacts__list1 {
+  width: 400px;
+  height: 497px;
+  margin-left: 109px;
+  img {
+    object-fit: cover;
+    @include img;
+  }
+}
+.contacts__list2 {
+  display: flex;
+  justify-content: flex-start;
+  h3 {
+    font-family: $inika;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499a18;
+  }
+}
+.btn_contacts {
+  display: flex;
+  flex-wrap: wrap;
+  @include flex(space-between, center);
+  background-color: #edf2ec;
+  width: 450px;
+  height: 50px;
+  background: #d6e7d2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px;
+  padding: 12px 40px 12px 40px;
+  text-align: center;
+  margin-bottom: 32px;
+  font-family: $inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  color: #717171;
+  flex-direction: row;
+
+  a {
+    text-decoration: none;
+  }
+  img {
+    width: 16px;
+    height: 16px;
+  }
+}
+.contacts__list3 {
+  display: flex;
+  justify-content: flex-start;
+}

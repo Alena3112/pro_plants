@@ -1,0 +1,110 @@
+.prices {
+  padding-top: 40px;
+  //padding-bottom: 120px;
+  //outline: 1px solid red;
+  background: #ffffff;
+  padding-bottom: 120px;
+}
+.prices__contem {
+  @include flex(space-between, flex-start);
+}
+.text__prices__contem {
+  width: 332px;
+  margin-left: 109px;
+  h2 {
+    font-family: $inter;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: $black;
+    padding-bottom: 60px;
+  }
+}
+.prices__wrap {
+  margin-bottom: 40px;
+  padding-right: 109px;
+  display: inline-block;
+
+  h2 {
+    text-align: right;
+    font-family: $inter;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: $black;
+  }
+}
+.img_conact {
+  width: 152px;
+  height: 175px;
+  padding-top: 50px;
+  margin-left: 290px;
+  img {
+    width: 100%;
+    height: 100%;
+     object-fit: cover;
+  }
+}
+.prices_list {
+  width: 332px;
+  height: auto;
+  border: 1px solid #e3e1d5;
+  border-radius: 20px;
+  padding-top: 34px;
+  padding-bottom: 2px;
+}
+.price__items {
+  @include flex(space-between, center);
+  flex-direction: column;
+  // height: 32px;
+}
+.btn_price {
+  display: flex;
+  flex-wrap: wrap;
+  @include flex(space-between, center);
+  background-color: #edf2ec;
+  width: 250px;
+  height: 50px;
+  border: 1px solid #edf2ec;
+  flex-direction: row;
+  border-radius: 20px;
+  font-family: $inter;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  padding: 12px 40px 12px 40px;
+  text-align: center;
+  margin-bottom: 32px;
+  a {
+    text-decoration: none;
+  }
+  img {
+    width: 16px;
+    height: 16px;
+  }
+}
+.btn_wrap_contact {
+  display: flex;
+  flex-wrap: wrap;
+  width: 162px;
+  height: 50px;
+  border: 1px solid $orang;
+  text-align: center;
+  border-radius: 5px;
+  font-family: $inika;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #e06733;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: inline-block;
+}
+.prices__wrap_contact {
+  button {
+    margin-left: 290px;
+    margin-top: 42px;
+  }
+}

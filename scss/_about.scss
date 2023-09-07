@@ -1,0 +1,41 @@
+.about {
+  padding-top: 93px;
+  padding-bottom: 87px;
+  // outline: 1px solid red;
+  background: #ffffff;
+}
+.about__container {
+  column-count: 2;
+}
+.text__wrap {
+  height: auto;
+  max-width: 605px;
+  text-align: start;
+  display: inline-block;
+  padding-top: 60px;
+  //padding-left: 50px;
+  margin-left: 110px;
+  p {
+    padding-top: 45px;
+    line-height: 1.5;
+    text-align: start;
+    font-family: $inter;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+  }
+}
+.card_about {
+  height: 479px;
+  max-width: 465px;
+  padding-right: 0;
+  margin-left: 130px;
+  img {
+    @include img;
+  }
+}
+.text_about {
+  min-height: 480px;
+}

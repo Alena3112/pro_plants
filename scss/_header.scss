@@ -1,0 +1,48 @@
+.header {
+  min-height: 134px;
+  //outline: 5px solid rgb(30, 0, 255);
+}
+.menu__header_list {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  // flex-direction: row;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.menu__header_item {
+  margin: 0 8px;
+  display: flex;
+  flex-wrap: wrap;
+
+  a {
+    color: $black;
+    font-family: $inika;
+    padding-left: 40px;
+
+    display: block;
+    //padding:45px 25px;
+    transition: 0.3s;
+    &:hover {
+      color: $green;
+    }
+  }
+}
+
+.logo {
+  // margin-top: 0;
+  padding-right: 650px;
+  margin-top: -5px;
+}
+ul {
+  list-style-type: none;
+  font-family: "Inika";
+  font-weight: 400;
+  font-size: 16px;
+  color: $green;
+}
+
+a {
+  text-decoration: none;
+}
